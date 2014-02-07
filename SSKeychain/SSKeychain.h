@@ -88,6 +88,7 @@ extern NSString *const kSSKeychainWhereKey;
  */
 + (BOOL)deletePasswordForService:(NSString *)serviceName account:(NSString *)account;
 + (BOOL)deletePasswordForService:(NSString *)serviceName account:(NSString *)account error:(NSError **)error;
++ (BOOL)deleteAllForService:(NSString *)serviceName error:(NSError *__autoreleasing *)error;
 
 
 /**
